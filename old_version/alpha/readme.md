@@ -17,7 +17,7 @@ Retrieved memory is directly injected into the LLM prompt without validation, fi
 ### Impact
 
 - Historical inputs can directly influence model behavior
-- All stored memory is treated as fully trusted context
+- Retrieved memory is treated as fully trusted context
 - No distinction between reliable, irrelevant, or malicious data
 
 ## Risk
